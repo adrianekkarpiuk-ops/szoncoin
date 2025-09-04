@@ -174,10 +174,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0x52; // R
-        pchMessageStart[1] = 0x41; // A
-        pchMessageStart[2] = 0x56; // V
-        pchMessageStart[3] = 0x4e; // N
+        pchMessageStart[0] = 0x53; // S
+        pchMessageStart[1] = 0x5A; // Z
+        pchMessageStart[2] = 0x4E; // N
+        pchMessageStart[3] = 0x43; // C
         nDefaultPort = 2333;
         nPruneAfterHeight = 100000;
 
