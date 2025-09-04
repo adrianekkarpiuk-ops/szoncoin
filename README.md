@@ -1,1 +1,2 @@
 SZONCOIN IS IN DEVELOPMENT 
+credit:ravencoin
