@@ -231,7 +231,7 @@ public:
             5.7       // * estimated number of transactions per second after that timestamp
         };
 
-        /** RVN Start **/
+        /** SZNC Start **/
         // Burn Amounts
         nIssueAssetBurnAmount = 500 * COIN;
         nReissueAssetBurnAmount = 100 * COIN;
@@ -270,7 +270,7 @@ public:
 
         nKAAAWWWPOWActivationTime = 1588788000; // UTC: Wed May 06 2020 18:00:00
         nKAWPOWActivationTime = nKAAAWWWPOWActivationTime;
-        /** RVN End **/
+        /** SZNC End **/
     }
 };
 
@@ -424,7 +424,7 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
 
-        // Raven BIP44 cointype in testnet
+        // SZON BIP44 cointype in testnet
         nExtCoinType = 1;
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
@@ -452,7 +452,7 @@ public:
             0.02        // * estimated number of transactions per second after that timestamp
         };
 
-        /** RVN Start **/
+        /** SZNC Start **/
         // Burn Amounts
         nIssueAssetBurnAmount = 500 * COIN;
         nReissueAssetBurnAmount = 100 * COIN;
@@ -491,7 +491,7 @@ public:
 
         nKAAAWWWPOWActivationTime = 1585159200; //Wed Mar 25 2020 18:00:00 UTC
         nKAWPOWActivationTime = nKAAAWWWPOWActivationTime;
-        /** RVN End **/
+        /** SZNC End **/
     }
 };
 
@@ -651,10 +651,10 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = {0x04, 0x35, 0x87, 0xCF};
         base58Prefixes[EXT_SECRET_KEY] = {0x04, 0x35, 0x83, 0x94};
 
-        // Raven BIP44 cointype in regtest
+        // SZON BIP44 cointype in regtest
         nExtCoinType = 1;
 
-        /** RVN Start **/
+        /** SZNC Start **/
         // Burn Amounts
         nIssueAssetBurnAmount = 500 * COIN;
         nReissueAssetBurnAmount = 100 * COIN;
@@ -696,7 +696,7 @@ public:
         // If you are looking to test the kawpow hashing function in regtest. You will need to change this number
         nKAAAWWWPOWActivationTime = 3582830167;
         nKAWPOWActivationTime = nKAAAWWWPOWActivationTime;
-        /** RVN End **/
+        /** SZNC End **/
     }
 };
 
